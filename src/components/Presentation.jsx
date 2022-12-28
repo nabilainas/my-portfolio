@@ -1,20 +1,14 @@
 import React from "react"
 import Typed from "react-typed"
-
+import {logo} from "../assets/index"
 const Presentation = () => (
-  <div className='flex justify-center text-white p-52 font-comfortaa'>
-    <div>
-      <Typed
-        strings={[
-              "Je m'appelle Nabil AÏNAS",
-              "Je suis Étudiant en Informatique",
-              "J'aime le développement",
-              "J'aime faire des script",
-            ]}
-            typeSpeed={50}
-            backSpeed={50}
-            loop
-          />
+  <div id="presentation" className="text-white  font-comfortaa flex flex-col items-center p-24 xl:flex-row xl:justify-around ">
+    <div className="flex flex-col bg-dimsecondBlue hover:bg-dimBlue m-4 p-4 rounded-lg">
+      <p className="text-sm text-center p-4 xl:text-xl">bonjour, Je m'appelle <Typed strings={[ "Nabil AÏNAS",]} typeSpeed={100} backSpeed={20} loop/> </p>
+      <p className="text-sm text-center pb-4">je suis étudiant en informatique et apprenti administrateur système</p>
+    </div>
+    <div className="bg-secondary p-4 hover:bg-dimBlue rounded-lg xl:animate-bounce xl:p-0">
+      <img src={logo} alt="cube" height={200} width={400} className="xl:animate-bounce xl:p-0 "/>
     </div>
   </div>
 )

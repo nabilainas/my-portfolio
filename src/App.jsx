@@ -1,6 +1,6 @@
-import Informations from './components/Informations'
 import Navbar from './components/Navbar'
 import Presentation from './components/Presentation'
+import Skills from './components/Skills'
 import styles from './constants/style'
 
 const App = () => (
@@ -19,7 +19,7 @@ const App = () => (
       </div>
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`} >
-          <Informations />
+          <Skills />
         </div>
       </div>
 
