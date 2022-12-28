@@ -5,5 +5,5 @@ import logo from "./logo.png";
 export {
   menu,
   close,
-  logo,
+  logo
 };

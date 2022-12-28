@@ -6,10 +6,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#00040f", //black (blue charcoal)
-        secondary: "#00f6ff", // cyan
+        primary: "#212b3a", //black (blue charcoal)
+        secondary: "#2e3d61", // bleu marine
+        dimGreen: "#d7e9db", // vert
         dimWhite: "rgba(255, 255, 255, 0.7)",
-        dimBlue: "rgba(9, 151, 124, 0.1)", // kind of blue / green
+        dimBlue: "#366a81", // kind of blue / green
+        dimsecondBlue: "#80b0b8", // kind of blue / green
       },
       fontFamily: {
         comfortaa: ["Comfortaa", "cursive"],
