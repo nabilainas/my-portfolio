@@ -1,3 +1,4 @@
+import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import Presentation from './components/Presentation'
 import Skills from './components/Skills'
@@ -20,6 +21,11 @@ const App = () => (
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`} >
           <Skills />
+        </div>
+      </div>
+      <div className={`bg-primary ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`} >
+          <Footer />
         </div>
       </div>
 
